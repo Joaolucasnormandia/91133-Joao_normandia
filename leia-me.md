@@ -1,0 +1,8 @@
+# REPOSITÓRIO SENAI ALUNO: JOÃO LUCAS SOARES NORMANDIA
+# DS - SENAI
+
+# html
+
+# css
+
+# javascript
