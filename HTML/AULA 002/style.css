@@ -1,0 +1,33 @@
+
+/*SELETORES CSS*/
+
+h1{
+    /*alinhamnto*/
+    text-align: center;
+    /*COR DE TEXTO*/
+    color: brown;
+    /*COLOCAR EM NEGRITO*/
+    font-weight: bold;
+}
+
+
+table{
+
+    /*LARGURA DA TABELA*/
+    width: 100%;
+    /*COLOCAR UMA BORDA*/
+    border: 2px solid;
+    /*MARGEM*/
+    margin-left: 20;
+    
+
+}
+
+td{
+    /*CENTRALIZAR ELEMENTOS*/
+    text-align: center;
+}
+
+thead{
+    background-color: rgba(255, 51, 51, 0.753);
+}

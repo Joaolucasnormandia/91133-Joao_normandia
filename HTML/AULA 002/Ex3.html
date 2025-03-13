@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styleform2.css">
+</head>
+<body>
+    <section>
+        <h1>Cadastro</h1>
+        <form action="/enviar" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome"required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email"><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br><br>
+            
+            <br><label for="pais">Selecione seu País</label>
+            <select name="pais" id="pais">
+                <option value="Brasil">Brasil</option>
+                <option value="Canadá">Canadá</option>
+                <option value="Daguestão">Daguestão</option>
+                <option value="Tomba">Tomba</option>
+                <option value="Caseb">Caseb</option>
+            </select><br><br>
+            <p>Gênero:</p>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">masculino</label><br><br>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label for="femenino">femenino</label><br><br>
+            <input type="radio" name="genero" id="outro" value="outro">
+            <label for="outro">outro</label><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
