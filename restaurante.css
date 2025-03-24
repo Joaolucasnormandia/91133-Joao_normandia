@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundprimario{
+    background-image: url(https://i.postimg.cc/15KvgFJW/wooden-wall-scratched-material-background-texture-concept.jpg);
+    background-size: cover;
+    background-repeat: repeat; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundsecundario {
+    border-radius: 5px;
+    align-items: center; 
+    width: 95%;
+    height: 90%; 
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.backgroundprimario .backgroundsecundario .header .logo img{
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 100px; 
+    height: auto;
+
+}
+
+.backgroundprimario .backgroundsecundario .header{
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.backgroundprimario .backgroundsecundario .header .nomeempresa{
+    font-size: small;    
+    font-family: 'Rowdies', sans-serif;
+}
+
+.backgroundprimario .backgroundsecundario .header .subtitulo{
+    font-size: 15px;
+    margin-left: 15px;
+    
+}
+
+.backgroundprimario .backgroundsecundario .header .contato{
+    display: flex;
+    gap:5px
+}
+
+
+.backgroundprimario .backgroundsecundario .header .contato .logozap img{
+    margin-top: 1px;
+    width: 25px;    
+    height: 25px;
+}   
+
+.backgroundprimario .backgroundsecundario .header .contato .logoinsta img{
+    margin-left: 15px;
+    margin-top: 4px;
+    width: 20px;    
+    height: 20px;
+} 
+
+.backgroundprimario .backgroundsecundario .header .contato{
+    display: flex;
+    gap:5px;
+}
+
+
+.backgroundprimario .backgroundsecundario .header .whatsapp-btn{
+margin-top: 100px;
+font-size:  9px;
+}
+
+.backgroundprimario .backgroundsecundario .header .contato .numerozap {
+    margin-top: 4px;
+    
+}
+
+.backgroundprimario .backgroundsecundario .header .contato .numerozap a{
+    color: rgb(12, 3, 136);
+    text-decoration-line: none;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: bold;
+    
+}
+.backgroundprimario .backgroundsecundario .header .contato .instanome a{
+    color: rgb(12, 3, 136);
+    text-decoration-line:none;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+.backgroundprimario .backgroundsecundario .header .contato .instanome{
+    margin-top: 3px;
+    
+}
+
+.backgroundsecundario .titulocardapio h1 {
+    font-size: 24px;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.backgroundsecundario .topic1 h2 {
+    font-size: 20px;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #333;
+}
+
