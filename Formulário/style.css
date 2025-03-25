@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align:center;
+    margin: 0;
+    flex-direction: column;
+}
+
+
+h1{  
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+ }
+
+.conteiner{
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid rgba(27, 27, 27, 0.075);
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.conteiner label,
+.conteiner input {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.conteiner button{
+    margin-top: 20px;
+    height: 25px;
+    width: 100px;
+}
