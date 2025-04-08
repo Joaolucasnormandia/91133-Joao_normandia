@@ -1,0 +1,126 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #06145a, #1b66d6, #2f00ff);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+    flex-direction: column;
+  }
+  
+  @keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  
+  .glass-container {
+    background-color: black;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 3rem 2rem;
+    max-width: 380px;
+    width: 90%;
+    text-align: center;
+    animation: fadeIn 0.8s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 0.95rem;
+    color: #e0e7ff;
+    margin-bottom: 2rem;
+  }
+  
+  .input-group {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    color: #f1f5f9;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    backdrop-filter: blur(5px);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  input::placeholder {
+    color: #e5e7eb;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.9rem;
+    background: linear-gradient(to right, #818cf8, #6366f1);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #4f46e5, #4338ca);
+    transform: scale(1.03);
+  }
+  
+  .register {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #f8fafc;
+  }
+  
+  .register a {
+    color: #c4b5fd;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .register a:hover {
+    text-decoration: underline;
+  }
+  
